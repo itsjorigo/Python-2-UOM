@@ -13,6 +13,7 @@ push(my_stack, 'c')
 
 print(my_stack)
 
-pop(my_stack)
-print(my_stack)
+for i in range(3):
+    pop(my_stack)
+    print(my_stack)
 
