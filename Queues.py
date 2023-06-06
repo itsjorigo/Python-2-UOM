@@ -12,3 +12,6 @@ enqueues(my_queue, 'b')
 enqueues(my_queue, 'c')
 
 print(my_queue)
+
+for i in range(3):
+    dequeues(my_queue)
