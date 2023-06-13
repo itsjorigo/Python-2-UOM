@@ -25,4 +25,4 @@ print(all_values)
 
 
 for key in scores:
-    print(key, scores[key])
+    print(key, ",", scores[key])
